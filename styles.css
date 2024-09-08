@@ -1,0 +1,52 @@
+body {
+    background: black;
+    color: white;
+}
+
+td {
+    padding: 0px 10px;
+}
+
+#clock, #settings {
+    position: absolute;
+}
+
+#clock {
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    text-align: center;
+}
+
+#settings {
+    opacity: 0%;
+    top: 60%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    transition-duration: 0.2s;
+    letter-spacing: 1px;
+}
+
+#settings:hover {
+    opacity: 100%;
+}
+
+#time {
+    font-size: 60px;
+    letter-spacing: 7px;
+}
+
+#labels {
+    font-size: 20px;
+    letter-spacing: 3px;
+}
+
+#life_expectancy, #birthday {
+    color: white;
+    background-color: black;
+}
+
+#life_expectancy {
+    width: 50px;
+}
+

@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+<head>
+    <title>Memento Mori</title>
+    <meta charset="UTF-8"> 
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link href="styles.css" rel="stylesheet" type="text/css" />
+</head>
+<body onload="showTime()">
+    <script type="text/javascript" src="scripts.js"></script>
+
+    <table id="clock">
+        <tr id="time">
+            <td id="years"></td>
+            <td id="months"></td>
+            <td id="days"></td>
+            <td id="hours"></td>
+            <td id="minutes"></td>
+            <td id="seconds"></td>
+        </tr>
+        <tr id="labels">
+            <td>years</td>
+            <td>months</td>
+            <td>days</td>
+            <td>hours</td>
+            <td>minutes</td>
+            <td>seconds</td>
+        </tr>
+    </table>
+
+    <table id="settings">
+        <tr>
+            <td>
+                <label for="birthday">Birthday:</label>
+                <input type="date" id="birthday" name="birthday" value="2000-01-01">
+            </td>
+            <td>
+                <label for="life_expectancy">Life expectancy:</label>
+                <input type="number" id="life_expectancy" name="life_expectancy" min="1" value="78">
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
